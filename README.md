@@ -1,22 +1,32 @@
 # Proyecto de Análisis de Evasión de Clientes - Telecom X
 
-## Descripción
+## Propósito del análisis
 
-Este proyecto tiene como objetivo analizar la evasión de clientes (churn) en la empresa Telecom X, utilizando datos proporcionados en formato JSON. Se realiza un proceso completo que incluye la extracción, limpieza, análisis exploratorio y visualización de datos para identificar patrones y factores que influyen en la cancelación del servicio.
+El objetivo de este proyecto es analizar la evasión de clientes (churn) en Telecom X, identificando patrones y factores que influyen en la cancelación del servicio. A través de la extracción, limpieza y análisis de datos, se busca generar insights para ayudar a la empresa a diseñar estrategias de retención efectivas y en  mayor medida, contribuir a la disminución ed la evasión 
 
-## Estructura del Proyecto
+## Estructura del proyecto y organización de archivos
 
-- **Extracción de Datos:** Se obtienen los datos desde una API en formato JSON y se convierten a DataFrames de pandas para facilitar su manipulación.  
-- **Limpieza y Tratamiento:** Se detectan y corrigen inconsistencias, se normalizan datos anidados y se preparan las variables para el análisis.  
-- **Análisis Exploratorio:** Se realiza un análisis descriptivo y visualización con gráficos para entender la distribución de la evasión según variables categóricas y numéricas.  
-- **Informe Final:** Se resumen los hallazgos, conclusiones y recomendaciones estratégicas basadas en los datos analizados.
+- **Datos:** Archivo JSON con información de clientes, servicios y facturación.
+- **Notebooks:** Código para la extracción, limpieza, análisis exploratorio y visualización de datos.
+- **Imágenes:** Gráficos generados que muestran la distribución de evasión según variables relevantes.
+- **README.md:** Documentación del proyecto que considera el propósito además de ser una guía para su uso.
 
-## Uso
+## Ejemplos de gráficos e insights obtenidos
 
-1. Ejecutar el notebook principal que contiene todo el proceso desde la carga hasta el análisis y visualización.  
-2. Revisar las gráficas y conclusiones para comprender los factores asociados a la evasión.  
-3. Utilizar las recomendaciones para tomar decisiones basadas en datos para reducir la tasa de cancelación.
+- Distribución de evasión por edad y tipo de contrato.
+- Análisis de evasión según servicios contratados (internet, telefonía, streaming).
+- Asociación entre métodos de pago y tasa de evasión.
+- Relación entre gasto mensual y permanencia con la probabilidad de cancelar.
 
-## Posibles Problemas y Soluciones
+## Instrucciones para ejecutar el notebook
 
-- Si trabaja en Google Colab, montar Google Drive puede facilitar el acceso a los archivos :D
+1. Abrir el notebook principal en Jupyter Notebook, JupyterLab o Google Colab.
+2. Verificar que las imágenes y archivos de datos estén en la misma carpeta o en rutas accesibles.
+3. Ejecutar las celdas en orden para reproducir el análisis completo.
+4. Revisar las visualizaciones y conclusiones generadas para entender el comportamiento de evasión.
+5. Usar los insights para apoyar la toma de decisiones estratégicas.
+
+---
+
+**Autor:** Alejandra Cotroneo 
+**Correo:** alejandracotroneo@gmail.com
